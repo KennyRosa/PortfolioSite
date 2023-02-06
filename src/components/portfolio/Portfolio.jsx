@@ -1,8 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import landing from "../../assets/landing.png";
-import table from "../../assets/table.png";
+// import table from "../../assets/table.png";
 import netflix from "../../assets/netflix.png";
+import video from "../../assets/video.mp4";
 
 function Portfolio() {
   return (
@@ -13,7 +14,7 @@ function Portfolio() {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={landing} alt="landing" height="175" />
+            <img className="landing-img" src={landing} alt="landing" />
           </div>
           <h3>Landing Page For Migrately</h3>
           <small className="description">
@@ -44,17 +45,17 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={table} alt="table" />
+            <video src={video} controls="controls" autoplay="true" />
           </div>
-          <h3>A Forums Component For Migrately</h3>
+          <h3>Migrately Forums Table</h3>
           <small className="description">
             Designed a table with data retrieved from an API. Upon clicking on
             an immigration form name, an applicant will be directed to a
-            comment's thread section where they can chat with other applicants.
+            comment's thread, where they can chat with other applicants.
           </small>
           <h5 className="warning">
-            Admin Route. Can only be accessed with user/password credentials.
-            Click GitHub button &#128526;
+            Admin Route. Can only be accessed with password credentials. Click
+            GitHub button &#128526;
           </h5>
           <div className="portfolio__item-cta">
             <a
@@ -64,16 +65,10 @@ function Portfolio() {
             >
               GitHub
             </a>
-            <a
-              href="https://migrately.azurewebsites.net/forums/list"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
           </div>
         </article>
-        <article className="portfolio__item">
+
+        {/* <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={netflix} alt="landing" height="175" />
           </div>
@@ -96,7 +91,7 @@ function Portfolio() {
               GitHub
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
