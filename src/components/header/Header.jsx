@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello! My name is</h5>
+        <h5>Hello! &#128075; My name is</h5>
         <h1 className="name-header">Kenny Rosa</h1>
         <h5 className="text-light">Frontend Engineer/Web Developer</h5>
         <CallToAction />
