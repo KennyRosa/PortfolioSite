@@ -1,8 +1,6 @@
 import React from "react";
 import "./portfolio.css";
 import landing from "../../assets/landing.png";
-// import table from "../../assets/table.png";
-import netflix from "../../assets/netflix.png";
 import video from "../../assets/video.mp4";
 
 function Portfolio() {
