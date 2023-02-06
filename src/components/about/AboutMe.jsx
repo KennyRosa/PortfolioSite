@@ -28,12 +28,12 @@ function AboutMe() {
             <article className="about__card">
               <SiJavascript className="about__icon" />
               <h5>Languages</h5>
-              <small>1+ Years Coding</small>
+              <small>HTML, CSS, JavaScript, React, Bootstrap</small>
             </article>
             <article className="about__card">
               <ImFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>1+ Years Coding</small>
+              <h5>Hobbies</h5>
+              <small>Video Games, Basketball, Cooking </small>
             </article>
           </div>
           <p>
