@@ -19,8 +19,6 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    left: 70px;
-    position: relative;
 }
 
 /* Header Socials */
