@@ -19,8 +19,6 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-    left: 70px;
-    position: relative;
 }
 
 /* Header Socials */
@@ -65,12 +63,21 @@ header {
     font-size: 0.9rem;
 }
 
+.header-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 1024px){
     header{
         height: 68vh;
     }
 }
+
+
+
 
 @media screen and (max-width: 600px){
     header{
