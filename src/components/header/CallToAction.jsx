@@ -9,7 +9,7 @@ function CallToAction() {
         Resume
       </a>
       <a href="#contact" className="btn btn-primary">
-        Let's Talk
+        Contact
       </a>
     </div>
   );
