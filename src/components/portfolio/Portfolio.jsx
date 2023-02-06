@@ -58,7 +58,7 @@ function Portfolio() {
           </small>
           <h5 className="warning">
             Admin Route. Can only be accessed with password credentials. Click
-            GitHub button &#128526;
+            GitHub button to view code! &#128526;
           </h5>
           <div className="portfolio__item-cta">
             <a
