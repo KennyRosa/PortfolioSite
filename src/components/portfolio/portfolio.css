@@ -29,6 +29,10 @@
     overflow: hidden;
 }
 
+.video{
+    border-radius: 1.5rem
+}
+
 .warning{
     top: 10px;
     position: relative;

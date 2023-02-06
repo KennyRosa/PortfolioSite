@@ -43,7 +43,12 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <video src={video} controls="controls" autoplay="true" />
+            <video
+              className="video"
+              src={video}
+              controls="controls"
+              autoplay="true"
+            />
           </div>
           <h3>Migrately Forums Table</h3>
           <small className="description">
