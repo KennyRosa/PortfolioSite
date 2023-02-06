@@ -3,7 +3,7 @@ import "./about.css";
 import nature from "../../assets/nature.jpeg";
 import { FaAward } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
-import { ImFolderOpen } from "react-icons/im";
+import { MdSportsBasketball } from "react-icons/md";
 
 function AboutMe() {
   return (
@@ -31,7 +31,7 @@ function AboutMe() {
               <small>HTML, CSS, JavaScript, React, Bootstrap</small>
             </article>
             <article className="about__card">
-              <ImFolderOpen className="about__icon" />
+              <MdSportsBasketball className="about__icon" />
               <h5>Hobbies</h5>
               <small>Video Games, Basketball, Cooking </small>
             </article>
