@@ -85,7 +85,7 @@ function Portfolio() {
           </small>
           <h5 className="warning">
             Repository for code can easily be reached by clicking on the GitHub
-            button &#127909;
+            button. See you there! &#127909;
           </h5>
           <div className="portfolio__item-cta">
             <a

@@ -42,6 +42,10 @@ header {
 
 /* IMG OF ME */
 
+.name-header{
+    color: var(--color-primary);
+}
+
 .me{
     width: 22rem;
     height: 30rem;
