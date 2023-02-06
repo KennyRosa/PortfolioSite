@@ -5,11 +5,11 @@ import "./header.css";
 function CallToAction() {
   return (
     <div className="cta">
-      <a href={resume} download className="btn header-button">
+      <a href={resume} download className="btn">
         Resume
       </a>
-      <a href="#contact" className="header-button btn btn-primary">
-        Let's Talk
+      <a href="#contact" className="btn btn-primary">
+        Contact
       </a>
     </div>
   );
